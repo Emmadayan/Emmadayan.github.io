@@ -25,7 +25,10 @@ body {
 	background-color: transparent;
 	position: fixed;
 }
-
+svg {
+	align-content: center;
+	display: flex;
+}
 
 
 
