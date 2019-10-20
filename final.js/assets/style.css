@@ -1,14 +1,14 @@
-#cameraIcon {
-font-size:70px;
-color: gold;
-margin-top: 25px;
+#cameraIcon { 
+    font-size:70px;
+    color: gold;
+    margin-top: 25px;
 }
 
 .links{
     margin-left: 40px;
 }
 
-a{
+a {
     color: #131247;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,7 +34,7 @@ li{
 
 #linkOne {
     /* width: 100%; */
-    height: 100vh;
+    height: 110vh;
     background-color: #e0e0e0;
     /* z-index: 1; */
     position: relative;
@@ -76,7 +76,7 @@ img {
     filter: grayscale(100%);
     max-width: 40%;
     height: auto;
-    margin-top: 45px;
+    margin-top: 60px;
     margin-left: 90px;
 }
 
@@ -108,13 +108,13 @@ img:hover{
 
     #navBar {
         background-color: white;
-        height: 15vh;
+        height: 20vh;
         width: 100%;
         text-align: center;
     }
 
     #linkOne{
-        width: 100%;
+        width: 145%;
         height: 145vh;
     }
 
@@ -136,7 +136,6 @@ img:hover{
 
 }
 
-
 @media only screen and (min-device-width: 411px) and (max-device-width: 731px)and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) {
 
     img {
@@ -149,7 +148,7 @@ img:hover{
 
     #navBar {
         background-color: white;
-        height: 13vh;
+        height: 20vh;
         width: 100%;
         text-align: center;
     }
@@ -175,9 +174,6 @@ img:hover{
     }
 }
 
-
-
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)and (orientation: portrait) { 
     img {
         filter: grayscale(100%);
@@ -189,7 +185,7 @@ img:hover{
 
     #navBar {
         background-color: white;
-        height: 13vh;
+        height: 20vh;
         width: 100%;
         text-align: center;
     }
@@ -215,9 +211,9 @@ img:hover{
     }
 
 
-  }
+}
 
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     img {
         filter: grayscale(100%);
         max-width: 90%;
@@ -228,7 +224,7 @@ img:hover{
 
     #navBar {
         background-color: white;
-        height: 17vh;
+        height: 20vh;
         width: 100%;
         text-align: center;
     }
@@ -253,4 +249,4 @@ img:hover{
         font-size: 40px;
     }
 
-  }
+}
