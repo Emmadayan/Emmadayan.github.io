@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #131247;
+  text-align: center;
+  font-size: 70px;
+}
+
+.items {
+  color: #131247;
+  text-align: left;
+  margin-left: 40px;
+  color: #131247;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+a {
+  color: #131247;
+}
+
+.portfolio{
+  height: 110vh;
+  background-color: #e0e0e0;
+}
+
+.about{
+  height: 110vh;
+  background-color: #e0e0e0;
+  margin-top: 20px;
+}
