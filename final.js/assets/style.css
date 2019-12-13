@@ -34,7 +34,7 @@ li{
 
 #linkOne {
     /* width: 100%; */
-    height: 110vh;
+    height: 95vh;
     background-color: #e0e0e0;
     /* z-index: 1; */
     position: relative;
@@ -43,7 +43,7 @@ li{
 #linkTwo {
     /* width: 100%; */
     margin-top: 20px;
-    height: 80vh;
+    height: 60vh;
     background-color: #e0e0e0;
     /* z-index: 1; */
     position: relative;
@@ -51,7 +51,7 @@ li{
 
 #linkThree {
     /* width: 100%; */
-    height: 80vh;
+    height: 40vh;
     background-color: #e0e0e0;
     margin-top: 20px;
     /* z-index: 1; */
@@ -93,6 +93,24 @@ img:hover{
     font-size: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #131247;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #131247;
+    font-size: 20px;
+}
+
+.about{
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 2;
+    text-align: center;
+}
+
+.contact{
+    margin-top: 35px;
+    text-align: center;
 }
 
 

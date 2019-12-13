@@ -1,0 +1,20 @@
+{
+    "photos": [
+        {
+            "href": "#one!",
+            "url": "./photos/one.jpg"
+        },
+        {
+            "href": "#two!",
+            "url": "./photos/two.png"
+        },
+        {
+            "href": "#three!",
+            "url": "./photos/three.jpg"
+        },
+        {
+            "href": "#four!",
+            "url": "./photos/four.jpg"
+        }
+    ]
+}

@@ -2,6 +2,20 @@ window.addEventListener('DOMContentLoaded', function(){
 
     attachEvents();
 
+    
+    $.getJSON( "http://localhost:3000/photos", function( data ) {
+
+        data.map(function(val, i) {
+            $('.gallery').append(`<a class="carousel-item" href="${val.href}"><img src="${val.url}"></a>`);
+        })
+        
+        // $( "<ul/>", {
+        //   "class": "my-new-list",
+        //   html: items.join( "" )
+        // }).appendTo( "body" );
+        $
+      });
+
     var navOffset = $('ul').offset().top-50;
 
     $(window).scroll(function(){
@@ -40,7 +54,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
 
 function addLinks(parent){
-
+// `<img src="${josn.pant}"/>`
 	parent.innerHTML += "<a href = '#home'>HOME</a>";
 	parent.innerHTML += "<a href = '#linkOne'>LINK 1</a>"; 
 	parent.innerHTML += "<a href = '#linkTwo'>LINK 2</a>";
